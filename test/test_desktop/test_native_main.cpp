@@ -3,7 +3,7 @@
 
 void test_addition()
 {
-    TEST_ASSERT_EQUAL(6, add(2, 3));
+    TEST_ASSERT_EQUAL(5, add(2, 3));
     TEST_ASSERT_EQUAL(-1, add(2, -3));
 }
 
