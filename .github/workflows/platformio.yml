@@ -38,7 +38,7 @@ jobs:
           pip install --upgrade platformio
 
       - name: Build PlatformIO Project
-        run: pio run
+        run: pio run --environment 4d_systems_esp32s3_gen4_r8n16
 
       - name: Run tests
         run: pio test --environment native
