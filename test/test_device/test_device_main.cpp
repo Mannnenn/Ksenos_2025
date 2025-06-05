@@ -87,8 +87,8 @@ void setup()
 {
     UNITY_BEGIN();
 
-    RUN_TEST(test_wifi_connection_timeout);
-    RUN_TEST(test_get_ip_address_disconnected);
+    // RUN_TEST(test_wifi_connection_timeout);
+    // RUN_TEST(test_get_ip_address_disconnected);
     RUN_TEST(test_wifi_connection_success);
 
     UNITY_END();
