@@ -75,6 +75,7 @@ void test_wifi_connection_success()
     delay(1000);       // 切断を待つ
     WiFi.begin(TEST_SSID, TEST_PASSWORD);
     wifiManager.begin(TEST_SSID, TEST_PASSWORD);
+    delay(3000); // 待つ
 
     TEST_ASSERT_TRUE(wifiManager.isConnected());
     String ip = wifiManager.getIPAddress();

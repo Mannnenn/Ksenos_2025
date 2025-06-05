@@ -42,3 +42,6 @@ jobs:
 
       - name: Run tests
         run: pio test --environment native
+
+      - name: Run tests on ESP32-S3
+        run: pio test --environment 4d_systems_esp32s3_gen4_r8n16
